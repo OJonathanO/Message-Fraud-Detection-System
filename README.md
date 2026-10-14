@@ -5,7 +5,7 @@ A full-stack web application that uses machine learning to classify text message
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Flask](https://img.shields.io/badge/Flask-3.0-green)
 ![React](https://img.shields.io/badge/React-18-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+
 
 ## Project Overview
 
