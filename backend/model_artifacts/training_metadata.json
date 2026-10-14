@@ -1,0 +1,26 @@
+{
+  "model_version": "1.0.0",
+  "training_date": "2026-10-13T18:27:50.977246",
+  "dataset": "UCI SMS Spam Collection",
+  "dataset_size": 5169,
+  "train_size": 4135,
+  "test_size": 1034,
+  "random_seed": 42,
+  "test_split_ratio": 0.2,
+  "pipeline_steps": [
+    "TextPreprocessor (lowercase, entity normalization)",
+    "TfidfVectorizer (max_features=10000, ngram_range=(1,2))",
+    "LogisticRegression (class_weight=balanced, C=1.0)"
+  ],
+  "classification_type": "binary",
+  "classes": [
+    "ham",
+    "spam"
+  ],
+  "limitations": [
+    "Binary classification only (spam vs. legitimate)",
+    "Does NOT detect fraud or phishing \u2014 requires separate labeled datasets",
+    "Trained on SMS messages only \u2014 may not generalize to emails or other formats",
+    "Model performance depends on dataset quality and representativeness"
+  ]
+}
